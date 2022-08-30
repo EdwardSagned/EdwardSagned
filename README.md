@@ -2,7 +2,7 @@
 - 👀 I’m interested in front-end, app and game development. I also love Chemestry and Physics.
 - 🌱 I’m currently learning machine learning and sciences and technologies of the enviroment.
 - 💞️ I’m looking to collaborate.
-- 📫 How to reach me eduardobranco@gmail.com
+- 📫 How to reach me eduardobrancopro@gmail.com
 
 <!---
 EdwardSagned/EdwardSagned is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
