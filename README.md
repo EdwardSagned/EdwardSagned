@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @EdwardSagned
-- 👀 I’m interested in front-end, app and game development. I also love Chemestry and Physics.
-- 🌱 I’m currently learning machine learning and sciences and technologies of the enviroment.
-- 🧑‍💻 I’m currently developing an app.
-- 💞️ I’m looking to collaborate.
+- 👀 I know a lot about phyon, c# and html. I'm working currently on improving my phyton and js knowledge
+- 🌱 I’m currently studying sciences and technologies of the enviroment.
+- 🧑‍💻 I’m currently developing a programming portefolio.
+- 📄 I’m looking to find a part time job.
 - 📫 How to reach me eduardobrancopro@gmail.com
 
 <!---
