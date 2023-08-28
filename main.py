@@ -1,29 +1,97 @@
 import random
-score=0
-for i in range(0,5):   
-    r1=random.randint(1,9)
-    r2=r1
-    guess="a"
-    while r1==r2:
-        r2=random.randint(1,9)
-    print(f"The first number is: {r1}")
-    while guess!="h"and guess!="l":
-        guess=input("Higher or Lower? (h/l)")
-    print(f"The second number is {r2}, ",end="")
-    if guess == "h" and r1 < r2:
-        print("you\'re right!")
-        score+=1
-    elif guess == "l" and r1 > r2:
-        print("you\'re right :D")
-        score+=1
+word_list = ["aardvark", "baboon", "camel"]
+stages = ['''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
+
+#Randomly choose a word from the word_list and assign it to a variable called chosen_word.
+chosen_word=random.choice(word_list)
+print(chosen_word)
+#Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
+#print(word_completed())
+display=[]
+lives=6
+word_completed=False
+
+for _ in range(len(chosen_word)):
+    display.append("_")
+print(display)
+
+while word_completed==False:
+    guess=input("What is your guess?").lower()
+    for pos in range(len(chosen_word)):
+        char=chosen_word[pos]
+        if guess==char:
+            display[pos]=char
+    print(display)
+
+    if guess not in chosen_word:
+        lives-=1
+        #print(stages[lives+1])
+        #print(lives)
+        if lives==0:
+            print("You lose")
+            exit()      
+    if "_" in display:
+        word_completed=False
     else:
-        print("you lost ;-;")
-        score=score
-    print("_____________________________________")
-print("Game ended!")
-cpu_score=5-score
-print(f"The score is (YOU-CPU): {score}-{cpu_score}")
-if score>3:
-    print("You won the game!")
-else:
-    print("You lost the game")
+        print("You Win!")
+        word_completed=True
+    print(stages[lives])
+
+
+# Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
+
