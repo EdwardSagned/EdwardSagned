@@ -21,7 +21,7 @@
   <img src=https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB>
 </p>
 <p align="left">
-  ![iuricode](https://github-readme-stats.vercel.app/api/top-langs/?username=iuricode&hide=html&layout=compact&theme=dark)](https://github.com/EdwardSagned/github-readme-stats)
+  ![iuricode](https://github-readme-stats.vercel.app/api/top-langs/?username=EdwardSagned&hide=html&layout=compact&theme=dark)](https://github.com/EdwardSagned/github-readme-stats)
 </p>
 <!---
 EdwardSagned/EdwardSagned is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
