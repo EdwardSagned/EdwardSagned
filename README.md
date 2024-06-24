@@ -1,9 +1,9 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right">
 
-<p align="left"> 
+<p align="left">  
   Hi, my name is Eduardo Branco
-  I'm a fullstack developer currently working my own portefolio
-  and I study sciences and technologies of the enviroment at FCUP.
+  I'm a fullstack developer currently working my own portefolio.
+  I study sciences and technologies of the enviroment at FCUP.
 </p>
 
 <p align="left">
